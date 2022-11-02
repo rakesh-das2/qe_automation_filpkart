@@ -59,7 +59,7 @@ class Test_HomePage(BaseTest):
         homepage.launch_app_url(CommonUtils.DEFAULT_URL)
         logger.info("Close login popup if display")
         homepage.close_login_popup_if_display()
-        data = XlsxReader.getTestData("test_verify_add_to_cart_function")
+        data = XlsxReader.get_test_data("test_verify_add_to_cart_function")
         logger.info("Search the product with name " + data[0] + "")
         search_result_page = homepage.enter_value_input_filed(data[0])
         logger.info("Verify showing result keyword should match")
