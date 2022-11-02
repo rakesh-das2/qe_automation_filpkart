@@ -1,0 +1,50 @@
+2022-11-02 14:59:29,795 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 14:59:29,795 :INFO : test_search_function :Launch the app
+2022-11-02 15:00:10,706 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:00:10,808 :INFO : test_search_function :Search the product with name mobile
+2022-11-02 15:00:13,007 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:00:18,195 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:00:18,195 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:00:18,195 :INFO : test_search_function :Launch the app
+2022-11-02 15:00:18,195 :INFO : test_search_function :Launch the app
+2022-11-02 15:01:20,477 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:01:20,477 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:01:20,559 :INFO : test_search_function :Search the product with name laptop
+2022-11-02 15:01:20,559 :INFO : test_search_function :Search the product with name laptop
+2022-11-02 15:01:22,756 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:01:22,756 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:01:27,846 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:01:27,846 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:01:27,846 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:01:27,846 :INFO : test_search_function :Launch the app
+2022-11-02 15:01:27,846 :INFO : test_search_function :Launch the app
+2022-11-02 15:01:27,846 :INFO : test_search_function :Launch the app
+2022-11-02 15:02:34,491 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:02:34,491 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:02:34,491 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:02:34,568 :INFO : test_search_function :Search the product with name tshirt
+2022-11-02 15:02:34,568 :INFO : test_search_function :Search the product with name tshirt
+2022-11-02 15:02:34,568 :INFO : test_search_function :Search the product with name tshirt
+2022-11-02 15:02:36,764 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:02:36,764 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:02:36,764 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:02:42,670 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:02:42,670 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:02:42,670 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:02:42,670 :INFO : test_search_function :Verify search function by giving diffrent input
+2022-11-02 15:02:42,670 :INFO : test_search_function :Launch the app
+2022-11-02 15:02:42,670 :INFO : test_search_function :Launch the app
+2022-11-02 15:02:42,670 :INFO : test_search_function :Launch the app
+2022-11-02 15:02:42,670 :INFO : test_search_function :Launch the app
+2022-11-02 15:03:28,831 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:03:28,831 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:03:28,831 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:03:28,831 :INFO : test_search_function :Close login popup if display
+2022-11-02 15:03:28,929 :INFO : test_search_function :Search the product with name jeans
+2022-11-02 15:03:28,929 :INFO : test_search_function :Search the product with name jeans
+2022-11-02 15:03:28,929 :INFO : test_search_function :Search the product with name jeans
+2022-11-02 15:03:28,929 :INFO : test_search_function :Search the product with name jeans
+2022-11-02 15:03:31,121 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:03:31,121 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:03:31,121 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-02 15:03:31,121 :INFO : test_search_function :Verify showing result keyword should match
