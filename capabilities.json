@@ -1,0 +1,12 @@
+{ 
+	"disable-notification": "--disable-notifications",
+	"ignore_certtificate_error": "--ignore-certificate-errors",
+	"excludeSwitches": ["enable-logging","enable-automation"],
+	"incognito": "--incognito",
+    "headless":"--headless",
+    "maximized":"--start-maximized",
+    "disable-infobars":"--disable-infobars",
+    "disable-dev-shm-usage":"--disable-dev-shm-usage",
+    "dns-prefetch-disable":"--dns-prefetch-disable",
+    "disable-gpu":"--disable-gpu"
+}
