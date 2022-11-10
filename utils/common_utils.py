@@ -8,7 +8,7 @@ class CommonUtils:
     DYNAMIC_WAIT_TIME =20
     SUPPORTED_BROWSERS = ["chrome"]
     DEFAULT_URL = "https://www.flipkart.com/"
-    HEADLESS = False
+    HEADLESS = True
 
     @staticmethod
     def read_json_file(file_path):

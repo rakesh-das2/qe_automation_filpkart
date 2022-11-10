@@ -34,7 +34,6 @@ class HomePage(DriverUtilsPage):
 
     @DecoratorUtils.decorator_func(By.XPATH, CATEGORY_XPATH)
     def category_loc(self):
-        breakpoint()
         print("after execution")
 
 

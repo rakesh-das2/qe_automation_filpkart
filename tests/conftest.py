@@ -62,7 +62,6 @@ def pytest_addoption(parser):
 @pytest.mark.hookwrapper
 def pytest_runtest_makereport(item):
     pytest_html = item.config.pluginmanager.getplugin('html')
-    breakpoint()
     outcome = yield
     report = outcome.get_result()
     extra = getattr(report, 'extra', [])

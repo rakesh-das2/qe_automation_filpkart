@@ -417,3 +417,5 @@
 2022-11-09 16:07:21,508: INFO: Element by xpath //button[text()='\u2715'] found
 2022-11-09 16:07:21,508: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="a9190cf4c4473ec3fd564b16ba9d63e8", element="8a3b4da1-fded-43ae-8d2a-fd9061a0919c")>
 2022-11-09 16:07:21,574: INFO: <selenium.webdriver.remote.webelement.WebElement (session="a9190cf4c4473ec3fd564b16ba9d63e8", element="8a3b4da1-fded-43ae-8d2a-fd9061a0919c")> clicked
+2022-11-10 12:02:37,432: INFO: Driver quitting
+2022-11-10 12:02:40,255: INFO: Driver quitted

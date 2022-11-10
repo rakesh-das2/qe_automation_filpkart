@@ -263,3 +263,85 @@
 2022-11-09 15:07:02,656 :INFO : test_verify_price_low_to_high_sortby_function :Verify item in Sub Category and Category Page
 2022-11-09 15:07:02,656 :INFO : test_verify_price_low_to_high_sortby_function :Launch the app
 2022-11-09 15:08:06,530 :INFO : test_verify_price_low_to_high_sortby_function :Close login popup if display
+2022-11-09 16:06:44,779 :INFO : test_verify_price_low_to_high_sortby_function :Verify item in Sub Category and Category Page
+2022-11-09 16:06:44,780 :INFO : test_verify_price_low_to_high_sortby_function :Launch the app
+2022-11-09 16:07:21,476 :INFO : test_verify_price_low_to_high_sortby_function :Close login popup if display
+2022-11-10 12:03:38,382 :INFO : test_verify_homepage_title :Verify flipkart homepage title
+2022-11-10 12:03:38,382 :INFO : test_verify_homepage_title :Launch the app
+2022-11-10 12:04:13,338 :INFO : test_verify_homepage_title :Close login popup if display
+2022-11-10 12:04:19,047 :INFO : test_search_function :Verify search keyword by giving diffrent input
+2022-11-10 12:04:19,047 :INFO : test_search_function :Launch the app
+2022-11-10 12:04:58,861 :INFO : test_search_function :Close login popup if display
+2022-11-10 12:04:58,959 :INFO : test_search_function :Search the product with name mobile
+2022-11-10 12:05:01,252 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-10 12:05:07,898 :INFO : test_search_function :Verify search keyword by giving diffrent input
+2022-11-10 12:05:07,898 :INFO : test_search_function :Verify search keyword by giving diffrent input
+2022-11-10 12:05:07,898 :INFO : test_search_function :Launch the app
+2022-11-10 12:05:07,898 :INFO : test_search_function :Launch the app
+2022-11-10 12:05:49,934 :INFO : test_search_function :Close login popup if display
+2022-11-10 12:05:49,934 :INFO : test_search_function :Close login popup if display
+2022-11-10 12:05:50,140 :INFO : test_search_function :Search the product with name laptop
+2022-11-10 12:05:50,140 :INFO : test_search_function :Search the product with name laptop
+2022-11-10 12:05:52,470 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-10 12:05:52,470 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-10 12:05:58,552 :INFO : test_search_function :Verify search keyword by giving diffrent input
+2022-11-10 12:05:58,552 :INFO : test_search_function :Verify search keyword by giving diffrent input
+2022-11-10 12:05:58,552 :INFO : test_search_function :Verify search keyword by giving diffrent input
+2022-11-10 12:05:58,552 :INFO : test_search_function :Launch the app
+2022-11-10 12:05:58,552 :INFO : test_search_function :Launch the app
+2022-11-10 12:05:58,552 :INFO : test_search_function :Launch the app
+2022-11-10 12:06:37,134 :INFO : test_search_function :Close login popup if display
+2022-11-10 12:06:37,134 :INFO : test_search_function :Close login popup if display
+2022-11-10 12:06:37,134 :INFO : test_search_function :Close login popup if display
+2022-11-10 12:06:37,259 :INFO : test_search_function :Search the product with name tshirt
+2022-11-10 12:06:37,259 :INFO : test_search_function :Search the product with name tshirt
+2022-11-10 12:06:37,259 :INFO : test_search_function :Search the product with name tshirt
+2022-11-10 12:06:39,504 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-10 12:06:39,504 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-10 12:06:39,504 :INFO : test_search_function :Verify showing result keyword should match
+2022-11-10 12:06:46,705 :INFO : test_search_product_verify_proudct_in_searchresultpage :Search the product and verify product in search result page
+2022-11-10 12:06:46,705 :INFO : test_search_product_verify_proudct_in_searchresultpage :Launch the app
+2022-11-10 12:07:49,269 :INFO : test_search_product_verify_proudct_in_searchresultpage :Close login popup if display
+2022-11-10 12:07:49,404 :INFO : test_search_product_verify_proudct_in_searchresultpage :Search the product with name xiaomi usb type c cable
+2022-11-10 12:07:51,680 :INFO : test_search_product_verify_proudct_in_searchresultpage :Verify showing result keyword should match
+2022-11-10 12:07:53,430 :INFO : test_search_product_verify_proudct_in_searchresultpage :Verify search Mi USB Type C Cable 2 A 0.3 m 22243 product should display
+2022-11-10 12:08:09,677 :INFO : test_verify_name_in_pdp_page :Verify product selection should navigate to PDP page
+2022-11-10 12:08:09,677 :INFO : test_verify_name_in_pdp_page :Launch the app
+2022-11-10 12:09:12,608 :INFO : test_verify_name_in_pdp_page :Close login popup if display
+2022-11-10 12:09:12,934 :INFO : test_verify_name_in_pdp_page :Search the product with name xiaomi usb type c cable
+2022-11-10 12:09:15,575 :INFO : test_verify_name_in_pdp_page :Verify showing result keyword should match
+2022-11-10 12:09:16,636 :INFO : test_verify_name_in_pdp_page :Verify search Mi USB Type C Cable 2 A 0.3 m 22243 product should display in search result page
+2022-11-10 12:09:27,147 :INFO : test_verify_name_in_pdp_page :Click the product Mi USB Type C Cable 2 A 0.3 m 22243 product should display in search result page
+2022-11-10 12:09:59,171 :INFO : test_verify_name_in_pdp_page :Verify product should display Mi USB Type C Cable 2 A 0.3 m 22243 in Product details page
+2022-11-10 12:10:04,955 :INFO : test_verify_add_to_cart_function :Verify user should add and remove product from cart
+2022-11-10 12:10:04,955 :INFO : test_verify_add_to_cart_function :Launch the app
+2022-11-10 12:11:07,545 :INFO : test_verify_add_to_cart_function :Close login popup if display
+2022-11-10 12:11:07,672 :INFO : test_verify_add_to_cart_function :Search the product with name apple power adapter
+2022-11-10 12:11:09,955 :INFO : test_verify_add_to_cart_function :Verify showing result keyword should match
+2022-11-10 12:11:11,074 :INFO : test_verify_add_to_cart_function :Verify search Apple MD836HN/A 12W USB Power Adapter product should display in search result page
+2022-11-10 12:11:11,096 :INFO : test_verify_add_to_cart_function :Click the product Apple MD836HN/A 12W USB Power Adapter product should display in search result page
+2022-11-10 12:11:13,525 :INFO : test_verify_add_to_cart_function :Verify product should display Apple MD836HN/A 12W USB Power Adapter in Product details page
+2022-11-10 12:11:13,586 :INFO : test_verify_add_to_cart_function :Click on add to cart button for Apple MD836HN/A 12W USB Power Adapter Product in PDP page
+2022-11-10 12:11:15,771 :INFO : test_verify_add_to_cart_function :Verify Apple MD836HN/A 12W USB Power Adapter Product should added into cart
+2022-11-10 12:11:15,817 :INFO : test_verify_add_to_cart_function :Remove Apple MD836HN/A 12W USB Power Adapter Product from cart
+2022-11-10 12:11:22,701 :INFO : test_verify_add_to_cart_function :Verify Apple MD836HN/A 12W USB Power Adapter Product should remove from cart
+2022-11-10 12:11:28,506 :INFO : test_verify_wishlist_function :Verify user should add and remove product from wishlist
+2022-11-10 12:11:28,506 :INFO : test_verify_wishlist_function :Launch the app
+2022-11-10 12:12:32,172 :INFO : test_verify_wishlist_function :Close login popup if display
+2022-11-10 12:12:32,382 :INFO : test_verify_wishlist_function :Search the product with name apple power adapter
+2022-11-10 12:12:34,728 :INFO : test_verify_wishlist_function :Verify showing result keyword should match
+2022-11-10 12:12:35,419 :INFO : test_verify_wishlist_function :Verify search Apple MD836HN/A 12W USB Power Adapter product should display in search result page
+2022-11-10 12:12:35,434 :INFO : test_verify_wishlist_function :Click the product Apple MD836HN/A 12W USB Power Adapter product should display in search result page
+2022-11-10 12:12:39,507 :INFO : test_verify_wishlist_function :Verify product should display Apple MD836HN/A 12W USB Power Adapter in Product details page
+2022-11-10 12:12:39,547 :INFO : test_verify_wishlist_function :Click on wishlist icon for Apple MD836HN/A 12W USB Power Adapter Product
+2022-11-10 12:12:40,785 :INFO : test_verify_wishlist_function :Verify Login popup should display as user not logged in
+2022-11-10 12:12:40,879 :INFO : test_verify_wishlist_function :Enter Credential and click on login button
+2022-11-10 12:12:45,394 :INFO : test_verify_wishlist_function :Verify after my account should dispaly
+2022-11-10 12:12:49,447 :INFO : test_verify_wishlist_function :Hover on my account click on wishlist link
+2022-11-10 12:12:50,889 :INFO : test_verify_wishlist_function :Verify Apple MD836HN/A 12W USB Power Adapter product in wishlist page
+2022-11-10 12:12:50,987 :INFO : test_verify_wishlist_function :Remove Apple MD836HN/A 12W USB Power Adapter product from my wishlist
+2022-11-10 12:12:54,206 :INFO : test_verify_wishlist_function :Verify Apple MD836HN/A 12W USB Power Adapter product should be remove from wishlist
+2022-11-10 12:13:20,253 :INFO : test_login :Verify logged in succecs
+2022-11-10 12:13:20,253 :INFO : test_login :Launch the app
+2022-11-10 12:14:23,006 :INFO : test_login :Enter valid credential
+2022-11-10 12:14:25,522 :INFO : test_login :Verify User should logged in to account
