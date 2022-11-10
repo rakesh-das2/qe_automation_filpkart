@@ -1,0 +1,2374 @@
+versions pytest-7.1.3, python-3.10.8.final.0
+cwd=C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart
+args=('--debug',)
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x0000019996312CE0>
+    pytest_plugin_registered [hook]
+        plugin: <Session qe_automation_filpkart exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x0000019996312CE0>
+      pytest_metadata [hook]
+          metadata: {'Python': '3.10.8', 'Platform': 'Windows-10-10.0.19044-SP0', 'Packages': {'pytest': '7.1.3', 'pluggy': '1.0.0'}, 'Plugins': {'forked': '1.4.0', 'html': '3.1.1', 'metadata': '2.0.3', 'xdist': '2.5.0'}, 'JAVA_HOME': 'C:\\Program Files\\Amazon Corretto\\jdk11.0.17_8'}
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000019996815D50>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000019996815BD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.plugin.HTMLReport object at 0x0000019996815CF0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000019996312CE0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_forked' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_forked\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_html\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_metadata\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\xdist\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\xdist\\looponfail.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='tee-sys' _global_capturing=<MultiCapture out=<SysCapture stdout _old=<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'> _state='suspended' tmpfile=<_io.TextIOWrapper encoding='UTF-8'>> err=<SysCapture stderr _old=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'> _state='suspended' tmpfile=<_io.TextIOWrapper encoding='UTF-8'>> in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'tests.conftest' from 'C:\\Users\\7000032828\\Workspace\\framework_git\\qe_automation_filpkart\\tests\\conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000019996815D50>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000019996815BD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.plugin.HTMLReport object at 0x0000019996815CF0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x00000199968162F0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000019996817FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000019996312CE0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_forked' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_forked\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_html\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_metadata\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\xdist\\plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\xdist\\looponfail.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='tee-sys' _global_capturing=<MultiCapture out=<SysCapture stdout _old=<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'> _state='suspended' tmpfile=<_io.TextIOWrapper encoding='UTF-8'>> err=<SysCapture stderr _old=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'> _state='suspended' tmpfile=<_io.TextIOWrapper encoding='UTF-8'>> in_=None _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'tests.conftest' from 'C:\\Users\\7000032828\\Workspace\\framework_git\\qe_automation_filpkart\\tests\\conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000019996815D50>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000019996815BD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.plugin.HTMLReport object at 0x0000019996815CF0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x00000199968162F0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000019996817FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x0000019996860D90>
+          manager: <_pytest.config.PytestPluginManager object at 0x0000019995611570>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x0000019996312CE0>
+          start_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart
+          startdir: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart
+      finish pytest_report_header --> [['rootdir: C:\\Users\\7000032828\\Workspace\\framework_git\\qe_automation_filpkart, configfile: pytest.ini', 'plugins: forked-1.4.0, html-3.1.1, metadata-2.0.3, xdist-2.5.0'], "metadata: {'Python': '3.10.8', 'Platform': 'Windows-10-10.0.19044-SP0', 'Packages': {'pytest': '7.1.3', 'pluggy': '1.0.0'}, 'Plugins': {'forked': '1.4.0', 'html': '3.1.1', 'metadata': '2.0.3', 'xdist': '2.5.0'}, 'JAVA_HOME': 'C:\\\\Program Files\\\\Amazon Corretto\\\\jdk11.0.17_8'}", 'cachedir: .pytest_cache', ['using: pytest-7.1.3', 'setuptools registered plugins:', '  pytest-forked-1.4.0 at C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_forked\\__init__.py', '  pytest-html-3.1.1 at C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_html\\plugin.py', '  pytest-metadata-2.0.3 at C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest_metadata\\plugin.py', '  pytest-xdist-2.5.0 at C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\xdist\\plugin.py', '  pytest-xdist-2.5.0 at C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\xdist\\looponfail.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['C:\\Users\\7000032828\\Workspace\\framework_git\\qe_automation_filpkart'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (WindowsPath('C:/Users/7000032828/Workspace/framework_git/qe_automation_filpkart'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.gitignore
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.gitignore
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.gitignore
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.gitignore
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221107.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221107.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221107.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221107.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221108.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221108.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221108.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\20221108.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\capabilities.json
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\capabilities.json
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\capabilities.json
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\capabilities.json
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytest.ini
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytest.ini
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytest.ini
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytest.ini
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytestdebug.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytestdebug.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytestdebug.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pytestdebug.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\requirements.txt
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\requirements.txt
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\requirements.txt
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\requirements.txt
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.git
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.git
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.idea
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.idea
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.pytest_cache
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\.pytest_cache
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\helpers
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\helpers
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\helpers\webdriver_event_listner.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\helpers\webdriver_event_listner.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\helpers\webdriver_event_listner.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\helpers\webdriver_event_listner.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\report.html
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\report.html
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\report.html
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\report.html
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\assets
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\assets
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\assets\style.css
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\assets\style.css
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\assets\style.css
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\html_report\assets\style.css
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\logs
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\logs
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\logs\logfile.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\logs\logfile.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\logs\logfile.log
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\logs\logfile.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\__init__.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\__init__.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\__init__.py
+                  path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\__init__.py
+              finish pytest_pycollect_makemodule --> <Package pages> [hook]
+            finish pytest_collect_file --> [<Package pages>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\input_data.xlsx
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\input_data.xlsx
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\input_data.xlsx
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\input_data.xlsx
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\win_chromedriver.exe
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\win_chromedriver.exe
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\win_chromedriver.exe
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\resources\win_chromedriver.exe
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\__init__.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\__init__.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\__init__.py
+                  path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\__init__.py
+              finish pytest_pycollect_makemodule --> <Package tests> [hook]
+            finish pytest_collect_file --> [<Package tests>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\__init__.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\__init__.py
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\__init__.py
+                  path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\__init__.py
+              finish pytest_pycollect_makemodule --> <Package utils> [hook]
+            finish pytest_collect_file --> [<Package utils>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\venv
+                path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\venv
+            finish pytest_ignore_collect --> True [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=3 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=3 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package pages> [collection]
+      pytest_collectstart [hook]
+          collector: <Package pages>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package pages>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\addtocart_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\addtocart_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\addtocart_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\addtocart_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\base_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\base_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\base_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\base_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\category_landing_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\category_landing_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\category_landing_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\category_landing_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\driver_utils_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\driver_utils_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\driver_utils_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\driver_utils_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\home_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\home_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\home_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\home_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\login_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\login_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\login_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\login_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\master_product_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\master_product_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\master_product_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\master_product_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\product_details_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\product_details_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\product_details_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\product_details_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\search_result_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\search_result_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\search_result_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\search_result_page.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\wishlist_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\wishlist_page.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pages>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\wishlist_page.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\pages\wishlist_page.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pages/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pages/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Package tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\basetest.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\basetest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\basetest.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\basetest.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\conftest.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\conftest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\conftest.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\conftest.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package tests>
+              module_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py
+              path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py
+          finish pytest_pycollect_makemodule --> <Module test_end_to_end.py> [hook]
+        finish pytest_collect_file --> [<Module test_end_to_end.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/__init__.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_end_to_end.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_end_to_end.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_end_to_end.py>
+      find_module called for: tests.test_end_to_end [assertion]
+      matched test file 'C:\\Users\\7000032828\\Workspace\\framework_git\\qe_automation_filpkart\\tests\\test_end_to_end.py' [assertion]
+      _read_pyc(C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\tests\test_end_to_end.py): out of date [assertion]
+      rewriting WindowsPath('C:/Users/7000032828/Workspace/framework_git/qe_automation_filpkart/tests/test_end_to_end.py') [assertion]
+      early skip of rewriting module: tests.basetest [assertion]
+      early skip of rewriting module: pages [assertion]
+      early skip of rewriting module: pages.home_page [assertion]
+      early skip of rewriting module: utils.decorator_utils [assertion]
+      early skip of rewriting module: selenium.webdriver.support.wait [assertion]
+      early skip of rewriting module: selenium.webdriver.support.expected_conditions [assertion]
+      early skip of rewriting module: pages.driver_utils_page [assertion]
+      early skip of rewriting module: pages.base_page [assertion]
+      early skip of rewriting module: pages.login_page [assertion]
+      early skip of rewriting module: utils.excel_utils [assertion]
+      early skip of rewriting module: openpyxl [assertion]
+      early skip of rewriting module: openpyxl.compat [assertion]
+      early skip of rewriting module: openpyxl.compat.numbers [assertion]
+      early skip of rewriting module: numpy [assertion]
+      early skip of rewriting module: openpyxl.compat.strings [assertion]
+      early skip of rewriting module: openpyxl.xml [assertion]
+      early skip of rewriting module: lxml [assertion]
+      early skip of rewriting module: defusedxml [assertion]
+      early skip of rewriting module: openpyxl.workbook [assertion]
+      early skip of rewriting module: openpyxl.workbook.workbook [assertion]
+      early skip of rewriting module: openpyxl.worksheet [assertion]
+      early skip of rewriting module: openpyxl.worksheet.worksheet [assertion]
+      early skip of rewriting module: openpyxl.utils [assertion]
+      early skip of rewriting module: openpyxl.utils.cell [assertion]
+      early skip of rewriting module: openpyxl.utils.exceptions [assertion]
+      early skip of rewriting module: openpyxl.utils.formulas [assertion]
+      early skip of rewriting module: openpyxl.cell [assertion]
+      early skip of rewriting module: openpyxl.cell.cell [assertion]
+      early skip of rewriting module: openpyxl.styles [assertion]
+      early skip of rewriting module: openpyxl.styles.alignment [assertion]
+      early skip of rewriting module: openpyxl.descriptors [assertion]
+      early skip of rewriting module: openpyxl.descriptors.base [assertion]
+      early skip of rewriting module: openpyxl.utils.datetime [assertion]
+      early skip of rewriting module: openpyxl.descriptors.namespace [assertion]
+      early skip of rewriting module: openpyxl.descriptors.sequence [assertion]
+      early skip of rewriting module: openpyxl.xml.functions [assertion]
+      early skip of rewriting module: et_xmlfile [assertion]
+      early skip of rewriting module: et_xmlfile.xmlfile [assertion]
+      early skip of rewriting module: openpyxl.xml.constants [assertion]
+      early skip of rewriting module: openpyxl.utils.indexed_list [assertion]
+      early skip of rewriting module: openpyxl.descriptors.serialisable [assertion]
+      early skip of rewriting module: openpyxl.styles.borders [assertion]
+      early skip of rewriting module: openpyxl.styles.colors [assertion]
+      early skip of rewriting module: openpyxl.styles.fills [assertion]
+      early skip of rewriting module: openpyxl.styles.fonts [assertion]
+      early skip of rewriting module: openpyxl.descriptors.nested [assertion]
+      early skip of rewriting module: openpyxl.styles.numbers [assertion]
+      early skip of rewriting module: openpyxl.styles.protection [assertion]
+      early skip of rewriting module: openpyxl.styles.named_styles [assertion]
+      early skip of rewriting module: openpyxl.descriptors.excel [assertion]
+      early skip of rewriting module: openpyxl.styles.cell_style [assertion]
+      early skip of rewriting module: array [assertion]
+      early skip of rewriting module: openpyxl.styles.styleable [assertion]
+      early skip of rewriting module: openpyxl.styles.proxy [assertion]
+      early skip of rewriting module: openpyxl.styles.builtins [assertion]
+      early skip of rewriting module: openpyxl.worksheet.hyperlink [assertion]
+      early skip of rewriting module: openpyxl.cell.read_only [assertion]
+      early skip of rewriting module: openpyxl.formatting [assertion]
+      early skip of rewriting module: openpyxl.formatting.rule [assertion]
+      early skip of rewriting module: openpyxl.styles.differential [assertion]
+      early skip of rewriting module: openpyxl.formatting.formatting [assertion]
+      early skip of rewriting module: openpyxl.worksheet.cell_range [assertion]
+      early skip of rewriting module: openpyxl.packaging [assertion]
+      early skip of rewriting module: openpyxl.packaging.relationship [assertion]
+      early skip of rewriting module: openpyxl.workbook.child [assertion]
+      early skip of rewriting module: openpyxl.worksheet.header_footer [assertion]
+      early skip of rewriting module: openpyxl.utils.escape [assertion]
+      early skip of rewriting module: openpyxl.workbook.defined_name [assertion]
+      early skip of rewriting module: openpyxl.formula [assertion]
+      early skip of rewriting module: openpyxl.formula.tokenizer [assertion]
+      early skip of rewriting module: openpyxl.formula.translate [assertion]
+      early skip of rewriting module: openpyxl.worksheet.datavalidation [assertion]
+      early skip of rewriting module: openpyxl.worksheet.page [assertion]
+      early skip of rewriting module: openpyxl.worksheet.dimensions [assertion]
+      early skip of rewriting module: openpyxl.utils.units [assertion]
+      early skip of rewriting module: openpyxl.utils.bound_dictionary [assertion]
+      early skip of rewriting module: openpyxl.worksheet.protection [assertion]
+      early skip of rewriting module: openpyxl.utils.protection [assertion]
+      early skip of rewriting module: openpyxl.worksheet.filters [assertion]
+      early skip of rewriting module: openpyxl.worksheet.views [assertion]
+      early skip of rewriting module: openpyxl.worksheet.merge [assertion]
+      early skip of rewriting module: openpyxl.worksheet.properties [assertion]
+      early skip of rewriting module: openpyxl.worksheet.pagebreak [assertion]
+      early skip of rewriting module: openpyxl.worksheet.scenario [assertion]
+      early skip of rewriting module: openpyxl.worksheet.table [assertion]
+      early skip of rewriting module: openpyxl.worksheet.related [assertion]
+      early skip of rewriting module: openpyxl.worksheet._read_only [assertion]
+      early skip of rewriting module: openpyxl.worksheet._reader [assertion]
+      early skip of rewriting module: openpyxl.cell.text [assertion]
+      early skip of rewriting module: openpyxl.worksheet._write_only [assertion]
+      early skip of rewriting module: openpyxl.worksheet._writer [assertion]
+      early skip of rewriting module: openpyxl.comments [assertion]
+      early skip of rewriting module: openpyxl.comments.comments [assertion]
+      early skip of rewriting module: openpyxl.comments.comment_sheet [assertion]
+      early skip of rewriting module: openpyxl.comments.author [assertion]
+      early skip of rewriting module: openpyxl.comments.shape_writer [assertion]
+      early skip of rewriting module: openpyxl.cell._writer [assertion]
+      early skip of rewriting module: openpyxl.worksheet.copier [assertion]
+      early skip of rewriting module: openpyxl.writer [assertion]
+      early skip of rewriting module: openpyxl.writer.excel [assertion]
+      early skip of rewriting module: openpyxl.drawing [assertion]
+      early skip of rewriting module: openpyxl.drawing.drawing [assertion]
+      early skip of rewriting module: openpyxl.drawing.spreadsheet_drawing [assertion]
+      early skip of rewriting module: openpyxl.drawing.image [assertion]
+      early skip of rewriting module: PIL [assertion]
+      early skip of rewriting module: openpyxl.chart [assertion]
+      early skip of rewriting module: openpyxl.chart.area_chart [assertion]
+      early skip of rewriting module: openpyxl.chart._chart [assertion]
+      early skip of rewriting module: openpyxl.chart._3d [assertion]
+      early skip of rewriting module: openpyxl.chart.marker [assertion]
+      early skip of rewriting module: openpyxl.chart.layout [assertion]
+      early skip of rewriting module: openpyxl.chart.picture [assertion]
+      early skip of rewriting module: openpyxl.chart.shapes [assertion]
+      early skip of rewriting module: openpyxl.drawing.colors [assertion]
+      early skip of rewriting module: openpyxl.drawing.fill [assertion]
+      early skip of rewriting module: openpyxl.drawing.effect [assertion]
+      early skip of rewriting module: openpyxl.drawing.line [assertion]
+      early skip of rewriting module: openpyxl.drawing.geometry [assertion]
+      early skip of rewriting module: openpyxl.chart.text [assertion]
+      early skip of rewriting module: openpyxl.drawing.text [assertion]
+      early skip of rewriting module: openpyxl.chart.data_source [assertion]
+      early skip of rewriting module: openpyxl.chart.error_bar [assertion]
+      early skip of rewriting module: openpyxl.chart.legend [assertion]
+      early skip of rewriting module: openpyxl.chart.reference [assertion]
+      early skip of rewriting module: openpyxl.chart.series_factory [assertion]
+      early skip of rewriting module: openpyxl.chart.series [assertion]
+      early skip of rewriting module: openpyxl.chart.label [assertion]
+      early skip of rewriting module: openpyxl.chart.trendline [assertion]
+      early skip of rewriting module: openpyxl.chart.title [assertion]
+      early skip of rewriting module: openpyxl.chart.descriptors [assertion]
+      early skip of rewriting module: openpyxl.chart.axis [assertion]
+      early skip of rewriting module: openpyxl.chart.bar_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.bubble_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.line_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.updown_bars [assertion]
+      early skip of rewriting module: openpyxl.chart.pie_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.radar_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.scatter_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.stock_chart [assertion]
+      early skip of rewriting module: openpyxl.chart.surface_chart [assertion]
+      early skip of rewriting module: openpyxl.drawing.xdr [assertion]
+      early skip of rewriting module: openpyxl.drawing.connector [assertion]
+      early skip of rewriting module: openpyxl.drawing.properties [assertion]
+      early skip of rewriting module: openpyxl.drawing.graphic [assertion]
+      early skip of rewriting module: openpyxl.drawing.picture [assertion]
+      early skip of rewriting module: openpyxl.drawing.relation [assertion]
+      early skip of rewriting module: openpyxl.packaging.manifest [assertion]
+      early skip of rewriting module: openpyxl.packaging.extended [assertion]
+      early skip of rewriting module: openpyxl.styles.stylesheet [assertion]
+      early skip of rewriting module: openpyxl.styles.table [assertion]
+      early skip of rewriting module: openpyxl.workbook._writer [assertion]
+      early skip of rewriting module: openpyxl.workbook.external_reference [assertion]
+      early skip of rewriting module: openpyxl.packaging.workbook [assertion]
+      early skip of rewriting module: openpyxl.workbook.function_group [assertion]
+      early skip of rewriting module: openpyxl.workbook.properties [assertion]
+      early skip of rewriting module: openpyxl.workbook.protection [assertion]
+      early skip of rewriting module: openpyxl.workbook.smart_tags [assertion]
+      early skip of rewriting module: openpyxl.workbook.views [assertion]
+      early skip of rewriting module: openpyxl.workbook.web [assertion]
+      early skip of rewriting module: openpyxl.writer.theme [assertion]
+      early skip of rewriting module: openpyxl.chartsheet [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.chartsheet [assertion]
+      early skip of rewriting module: openpyxl.worksheet.drawing [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.relation [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.properties [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.protection [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.views [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.custom [assertion]
+      early skip of rewriting module: openpyxl.chartsheet.publish [assertion]
+      early skip of rewriting module: openpyxl.packaging.core [assertion]
+      early skip of rewriting module: openpyxl.reader [assertion]
+      early skip of rewriting module: openpyxl.reader.excel [assertion]
+      early skip of rewriting module: openpyxl.pivot [assertion]
+      early skip of rewriting module: openpyxl.pivot.table [assertion]
+      early skip of rewriting module: openpyxl.pivot.fields [assertion]
+      early skip of rewriting module: openpyxl.tests [assertion]
+      early skip of rewriting module: openpyxl.reader.strings [assertion]
+      early skip of rewriting module: openpyxl.reader.workbook [assertion]
+      early skip of rewriting module: openpyxl.workbook.external_link [assertion]
+      early skip of rewriting module: openpyxl.workbook.external_link.external [assertion]
+      early skip of rewriting module: openpyxl.pivot.cache [assertion]
+      early skip of rewriting module: openpyxl.pivot.record [assertion]
+      early skip of rewriting module: openpyxl.reader.drawings [assertion]
+      early skip of rewriting module: openpyxl.chart.chartspace [assertion]
+      early skip of rewriting module: openpyxl.chart.plotarea [assertion]
+      early skip of rewriting module: openpyxl.chart.pivot [assertion]
+      early skip of rewriting module: openpyxl.chart.print_settings [assertion]
+      early skip of rewriting module: openpyxl.chart.reader [assertion]
+      early skip of rewriting module: openpyxl._constants [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: BaseTest
+            obj: <class 'tests.basetest.BaseTest'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: HomePage
+            obj: <class 'pages.home_page.HomePage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: LoginPage
+            obj: <class 'pages.login_page.LoginPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: CommonUtils
+            obj: <class 'utils.common_utils.CommonUtils'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: XlsxReader
+            obj: <class 'utils.excel_utils.XlsxReader'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: pytest
+            obj: <module 'pytest' from 'C:\\Users\\7000032828\\OneDrive - Sony\\qe_automation_flipkart\\venv\\lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_end_to_end.py>
+            name: Test_E2E
+            obj: <class 'tests.test_end_to_end.Test_E2E'>
+        finish pytest_pycollect_makeitem --> <Class Test_E2E> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_end_to_end.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class Test_E2E> [collection]
+      pytest_collectstart [hook]
+          collector: <Class Test_E2E>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class Test_E2E>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_homepage_title
+            obj: <function Test_E2E.test_verify_homepage_title at 0x00000199968C6950>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770B5E0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_homepage_title>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_search_function
+            obj: <function Test_E2E.test_search_function at 0x00000199976F6710>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770A470>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                val: mobile
+                argname: data
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                val: laptop
+                argname: data
+            finish pytest_make_parametrize_id --> None [hook]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000019996312CE0>
+                val: tshirt
+                argname: data
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_search_function[mobile]>, <Function test_search_function[laptop]>, <Function test_search_function[tshirt]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_search_product_verify_proudct_in_searchresultpage
+            obj: <function Test_E2E.test_search_product_verify_proudct_in_searchresultpage at 0x00000199976F67A0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770B5E0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_search_product_verify_proudct_in_searchresultpage>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_name_in_pdp_page
+            obj: <function Test_E2E.test_verify_name_in_pdp_page at 0x00000199976F68C0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770A6B0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_name_in_pdp_page>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_add_to_cart_function
+            obj: <function Test_E2E.test_verify_add_to_cart_function at 0x00000199976F6680>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770A470>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_add_to_cart_function>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_wishlist_function
+            obj: <function Test_E2E.test_verify_wishlist_function at 0x00000199976F6950>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770B5E0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_wishlist_function>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_login
+            obj: <function Test_E2E.test_login at 0x00000199976F69E0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770A6B0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_login>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_category_item
+            obj: <function Test_E2E.test_verify_category_item at 0x00000199976F6A70>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770A470>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_category_item>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_price_low_to_high_sortby_function
+            obj: <function Test_E2E.test_verify_price_low_to_high_sortby_function at 0x00000199976F6B00>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770B5E0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_price_low_to_high_sortby_function>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: test_verify_master_product
+            obj: <function Test_E2E.test_verify_master_product at 0x00000199976F6B90>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001999770A6B0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_verify_master_product>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: ROOT_PATH
+            obj: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: getLogger
+            obj: <function BaseTest.getLogger at 0x0000019996855B40>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_E2E>
+            name: pytestmark
+            obj: [Mark(name='usefixtures', args=('setup',), kwargs={})]
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_end_to_end.py::Test_E2E' lenresult=12 outcome='passed'> [hook]
+    genitems <Function test_verify_homepage_title> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_homepage_title>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_search_function[mobile]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_search_function[mobile]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_search_function[laptop]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_search_function[laptop]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_search_function[tshirt]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_search_function[tshirt]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_search_product_verify_proudct_in_searchresultpage> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_search_product_verify_proudct_in_searchresultpage>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_verify_name_in_pdp_page> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_name_in_pdp_page>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_verify_add_to_cart_function> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_add_to_cart_function>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_verify_wishlist_function> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_wishlist_function>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_login> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_verify_category_item> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_category_item>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_verify_price_low_to_high_sortby_function> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_price_low_to_high_sortby_function>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_verify_master_product> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_verify_master_product>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_end_to_end.py::Test_E2E' lenresult=12 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_end_to_end.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/__init__.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package utils> [collection]
+      pytest_collectstart [hook]
+          collector: <Package utils>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package utils>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\common_utils.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\common_utils.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\common_utils.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\common_utils.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\decorator_utils.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\decorator_utils.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\decorator_utils.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\decorator_utils.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            collection_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\excel_utils.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\excel_utils.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utils>
+            file_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\excel_utils.py
+            path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart\utils\excel_utils.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'utils/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'utils/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x0000019996312CE0>
+          items: [<Function test_verify_homepage_title>, <Function test_search_function[mobile]>, <Function test_search_function[laptop]>, <Function test_search_function[tshirt]>, <Function test_search_product_verify_proudct_in_searchresultpage>, <Function test_verify_name_in_pdp_page>, <Function test_verify_add_to_cart_function>, <Function test_verify_wishlist_function>, <Function test_login>, <Function test_verify_category_item>, <Function test_verify_price_low_to_high_sortby_function>, <Function test_verify_master_product>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+            items: [<Function test_verify_homepage_title>, <Function test_search_function[mobile]>, <Function test_search_function[laptop]>, <Function test_search_function[tshirt]>, <Function test_search_product_verify_proudct_in_searchresultpage>, <Function test_verify_name_in_pdp_page>, <Function test_verify_add_to_cart_function>, <Function test_verify_wishlist_function>, <Function test_login>, <Function test_verify_category_item>, <Function test_verify_price_low_to_high_sortby_function>, <Function test_verify_master_product>]
+            start_path: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart
+            startdir: C:\Users\7000032828\Workspace\framework_git\qe_automation_filpkart
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session qe_automation_filpkart exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=12>
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_homepage_title>
+          nextitem: <Function test_search_function[mobile]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title
+            location: ('tests\\test_end_to_end.py', 9, 'Test_E2E.test_verify_homepage_title')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_homepage_title>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_homepage_title>>
+          finish pytest_fixture_setup --> chrome [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_homepage_title>>
+          early skip of rewriting module: encodings.idna [assertion]
+          early skip of rewriting module: stringprep [assertion]
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_homepage_title>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_homepage_title>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_homepage_title>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_homepage_title>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_homepage_title>
+            nextitem: <Function test_search_function[mobile]>
+        early skip of rewriting module: urllib.request [assertion]
+        early skip of rewriting module: urllib.error [assertion]
+        early skip of rewriting module: urllib.response [assertion]
+        early skip of rewriting module: nturl2path [assertion]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_homepage_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_homepage_title>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title
+            location: ('tests\\test_end_to_end.py', 9, 'Test_E2E.test_verify_homepage_title')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_search_function[mobile]>
+          nextitem: <Function test_search_function[laptop]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]
+            location: ('tests\\test_end_to_end.py', 23, 'Test_E2E.test_search_function[mobile]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_search_function[mobile]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[mobile]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_search_function[mobile]>>
+          finish pytest_fixture_setup --> mobile [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[mobile]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_search_function[mobile]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_search_function[mobile]>
+          early skip of rewriting module: pages.search_result_page [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[mobile]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_search_function[mobile]>
+            nextitem: <Function test_search_function[laptop]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_search_function[mobile]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[mobile]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[mobile]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]
+            location: ('tests\\test_end_to_end.py', 23, 'Test_E2E.test_search_function[mobile]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_search_function[laptop]>
+          nextitem: <Function test_search_function[tshirt]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]
+            location: ('tests\\test_end_to_end.py', 23, 'Test_E2E.test_search_function[laptop]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_search_function[laptop]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[laptop]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_search_function[laptop]>>
+          finish pytest_fixture_setup --> laptop [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[laptop]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_search_function[laptop]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_search_function[laptop]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[laptop]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_search_function[laptop]>
+            nextitem: <Function test_search_function[tshirt]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_search_function[laptop]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[laptop]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[laptop]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]
+            location: ('tests\\test_end_to_end.py', 23, 'Test_E2E.test_search_function[laptop]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_search_function[tshirt]>
+          nextitem: <Function test_search_product_verify_proudct_in_searchresultpage>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]
+            location: ('tests\\test_end_to_end.py', 23, 'Test_E2E.test_search_function[tshirt]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_search_function[tshirt]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[tshirt]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_search_function[tshirt]>>
+          finish pytest_fixture_setup --> tshirt [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[tshirt]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_search_function[tshirt]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_search_function[tshirt]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[tshirt]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_search_function[tshirt]>
+            nextitem: <Function test_search_product_verify_proudct_in_searchresultpage>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_search_function[tshirt]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[tshirt]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_function[tshirt]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]
+            location: ('tests\\test_end_to_end.py', 23, 'Test_E2E.test_search_function[tshirt]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_search_product_verify_proudct_in_searchresultpage>
+          nextitem: <Function test_verify_name_in_pdp_page>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage
+            location: ('tests\\test_end_to_end.py', 37, 'Test_E2E.test_search_product_verify_proudct_in_searchresultpage')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_search_product_verify_proudct_in_searchresultpage>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_product_verify_proudct_in_searchresultpage>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_product_verify_proudct_in_searchresultpage>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_search_product_verify_proudct_in_searchresultpage>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_search_product_verify_proudct_in_searchresultpage>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_product_verify_proudct_in_searchresultpage>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_search_product_verify_proudct_in_searchresultpage>
+            nextitem: <Function test_verify_name_in_pdp_page>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_product_verify_proudct_in_searchresultpage>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_search_product_verify_proudct_in_searchresultpage>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage
+            location: ('tests\\test_end_to_end.py', 37, 'Test_E2E.test_search_product_verify_proudct_in_searchresultpage')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_name_in_pdp_page>
+          nextitem: <Function test_verify_add_to_cart_function>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page
+            location: ('tests\\test_end_to_end.py', 54, 'Test_E2E.test_verify_name_in_pdp_page')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_name_in_pdp_page>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_name_in_pdp_page>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_name_in_pdp_page>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_name_in_pdp_page>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_name_in_pdp_page>
+          early skip of rewriting module: pages.product_details_page [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_name_in_pdp_page>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_name_in_pdp_page>
+            nextitem: <Function test_verify_add_to_cart_function>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_name_in_pdp_page>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_name_in_pdp_page>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page
+            location: ('tests\\test_end_to_end.py', 54, 'Test_E2E.test_verify_name_in_pdp_page')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_add_to_cart_function>
+          nextitem: <Function test_verify_wishlist_function>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function
+            location: ('tests\\test_end_to_end.py', 74, 'Test_E2E.test_verify_add_to_cart_function')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_add_to_cart_function>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_add_to_cart_function>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_add_to_cart_function>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_add_to_cart_function>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_add_to_cart_function>
+          early skip of rewriting module: pages.addtocart_page [assertion]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_add_to_cart_function>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo ElementClickInterceptedException('element click intercepted: Element <div class="_3dsJAO">...</div> is not clickable a...', '\tRtlGetAppContainerNamedObjectPath [0x77D07BBE+286]', '\tRtlGetAppContainerNamedObjectPath [0x77D07B8E+238]', '']) tblen=32>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_verify_add_to_cart_function>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo ElementClickInterceptedException('element click intercepted: Element <div class="_3dsJAO">...</div> is not clickable a...', '\tRtlGetAppContainerNamedObjectPath [0x77D07BBE+286]', '\tRtlGetAppContainerNamedObjectPath [0x77D07B8E+238]', '']) tblen=8>>
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_add_to_cart_function>
+            nextitem: <Function test_verify_wishlist_function>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_add_to_cart_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_add_to_cart_function>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function
+            location: ('tests\\test_end_to_end.py', 74, 'Test_E2E.test_verify_add_to_cart_function')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_wishlist_function>
+          nextitem: <Function test_login>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function
+            location: ('tests\\test_end_to_end.py', 102, 'Test_E2E.test_verify_wishlist_function')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_wishlist_function>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_wishlist_function>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_wishlist_function>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_wishlist_function>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_wishlist_function>
+          early skip of rewriting module: pages.wishlist_page [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_wishlist_function>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_wishlist_function>
+            nextitem: <Function test_login>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_wishlist_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_wishlist_function>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function
+            location: ('tests\\test_end_to_end.py', 102, 'Test_E2E.test_verify_wishlist_function')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_login>
+          nextitem: <Function test_verify_category_item>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_login
+            location: ('tests\\test_end_to_end.py', 138, 'Test_E2E.test_login')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_login>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_login>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_login>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_login>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_login>
+            nextitem: <Function test_verify_category_item>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_login>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_login
+            location: ('tests\\test_end_to_end.py', 138, 'Test_E2E.test_login')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_category_item>
+          nextitem: <Function test_verify_price_low_to_high_sortby_function>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_category_item
+            location: ('tests\\test_end_to_end.py', 150, 'Test_E2E.test_verify_category_item')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_category_item>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_category_item>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_category_item>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_category_item>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_category_item>
+          early skip of rewriting module: pages.category_landing_page [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_category_item>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_category_item>
+            nextitem: <Function test_verify_price_low_to_high_sortby_function>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_category_item>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_category_item>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_category_item
+            location: ('tests\\test_end_to_end.py', 150, 'Test_E2E.test_verify_category_item')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_price_low_to_high_sortby_function>
+          nextitem: <Function test_verify_master_product>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function
+            location: ('tests\\test_end_to_end.py', 176, 'Test_E2E.test_verify_price_low_to_high_sortby_function')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_price_low_to_high_sortby_function>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_price_low_to_high_sortby_function>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_price_low_to_high_sortby_function>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_price_low_to_high_sortby_function>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_price_low_to_high_sortby_function>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_price_low_to_high_sortby_function>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_price_low_to_high_sortby_function>
+            nextitem: <Function test_verify_master_product>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_price_low_to_high_sortby_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_price_low_to_high_sortby_function>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function
+            location: ('tests\\test_end_to_end.py', 176, 'Test_E2E.test_verify_price_low_to_high_sortby_function')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_verify_master_product>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_master_product
+            location: ('tests\\test_end_to_end.py', 209, 'Test_E2E.test_verify_master_product')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_verify_master_product>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_master_product>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_master_product>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_verify_master_product>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_verify_master_product>
+          early skip of rewriting module: pages.master_product_page [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_master_product>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_verify_master_product>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_master_product>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_master_product>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_price_low_to_high_sortby_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_category_item>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_login>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_wishlist_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_add_to_cart_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_name_in_pdp_page>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_product_verify_proudct_in_searchresultpage>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[tshirt]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[laptop]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_search_function[mobile]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='tests'>
+              request: <SubRequest 'setup' for <Function test_verify_homepage_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_master_product>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_price_low_to_high_sortby_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_category_item>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_login>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_wishlist_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_add_to_cart_function>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_name_in_pdp_page>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_search_product_verify_proudct_in_searchresultpage>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_search_function[tshirt]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_search_function[laptop]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_search_function[mobile]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='class' baseid='tests'>
+              request: <SubRequest 'browser' for <Function test_verify_homepage_title>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_verify_master_product>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000019996312CE0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_end_to_end.py::Test_E2E::test_verify_master_product
+            location: ('tests\\test_end_to_end.py', 209, 'Test_E2E.test_verify_master_product')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session qe_automation_filpkart exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=12>
+        exitstatus: 1
+    early skip of rewriting module: ansi2html [assertion]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759183853728>, <'td' tag object 1759183855968>, <'td' tag object 1759183851568>, <'td' tag object 1759183854208>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_homepage_title' when='call' outcome='passed'>
+          data: [<'div' tag object 1759183855888>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184269248>, <'td' tag object 1759184268768>, <'td' tag object 1759184261648>, <'td' tag object 1759184258688>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[mobile]' when='call' outcome='passed'>
+          data: [<'div' tag object 1759168184384>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184260048>, <'td' tag object 1759184270368>, <'td' tag object 1759184263408>, <'td' tag object 1759184268848>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[laptop]' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184269728>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184273168>, <'td' tag object 1759184258048>, <'td' tag object 1759184269168>, <'td' tag object 1759184263568>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_function[tshirt]' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184265168>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184263888>, <'td' tag object 1759184263008>, <'td' tag object 1759184259568>, <'td' tag object 1759184266368>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_search_product_verify_proudct_in_searchresultpage' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184261168>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759183697248>, <'td' tag object 1759183697568>, <'td' tag object 1759183693968>, <'td' tag object 1759183693168>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_name_in_pdp_page' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184272688>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'>
+          cells: [<'td' tag object 1759185554624>, <'td' tag object 1759185554464>, <'td' tag object 1759185554064>, <'td' tag object 1759185554224>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'>
+          data: [<'div' tag object 1759183693488>, <'div' tag object 1759183698208>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184471760>, <'td' tag object 1759184482480>, <'td' tag object 1759184473360>, <'td' tag object 1759184475120>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_wishlist_function' when='call' outcome='passed'>
+          data: [<'div' tag object 1759185554144>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184484720>, <'td' tag object 1759184481920>, <'td' tag object 1759184480960>, <'td' tag object 1759184472400>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_login' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184484400>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184485440>, <'td' tag object 1759184485520>, <'td' tag object 1759184474800>, <'td' tag object 1759184474960>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_category_item' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184478800>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184472720>, <'td' tag object 1759184475680>, <'td' tag object 1759184483440>, <'td' tag object 1759184470400>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_price_low_to_high_sortby_function' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184475600>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_row [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='call' outcome='passed'>
+          cells: [<'td' tag object 1759184479200>, <'td' tag object 1759184474320>, <'td' tag object 1759184479040>, <'td' tag object 1759184476400>]
+      finish pytest_html_results_table_row --> [] [hook]
+      pytest_html_results_table_html [hook]
+          report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_master_product' when='call' outcome='passed'>
+          data: [<'div' tag object 1759184473600>]
+      finish pytest_html_results_table_html --> [] [hook]
+      pytest_html_results_table_header [hook]
+          cells: [<'th' tag object 1759184482640>, <'th' tag object 1759163876112>, <'th' tag object 1759184472960>, <'th' tag object 1759184479680>]
+      finish pytest_html_results_table_header --> [] [hook]
+      pytest_html_report_title [hook]
+          report: <pytest_html.plugin.HTMLReport object at 0x0000019996815CF0>
+      finish pytest_html_report_title --> [] [hook]
+      pytest_html_results_summary [hook]
+          prefix: []
+          summary: [<'p' tag object 1759184484800>, <'p' tag object 1759184485280>, <'input' tag object 1759184481840>, <'span' tag object 1759184484320>, ', ', <'input' tag object 1759184484240>, <'span' tag object 1759184483600>, ', ', <'input' tag object 1759184484480>, <'span' tag object 1759184485600>, ', ', <'input' tag object 1759184473920>, <'span' tag object 1759184474480>, ', ', <'input' tag object 1759184474080>, <'span' tag object 1759184485200>, ', ', <'input' tag object 1759184476880>, <'span' tag object 1759184472560>]
+          postfix: []
+      finish pytest_html_results_summary --> [] [hook]
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x00000199968162F0>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x0000019996312CE0>
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_end_to_end.py::Test_E2E::test_verify_add_to_cart_function' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x0000019996312CE0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x0000019996312CE0>
+    finish pytest_unconfigure --> [] [hook]

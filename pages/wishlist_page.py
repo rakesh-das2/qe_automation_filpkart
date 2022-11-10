@@ -1,7 +1,8 @@
-from pages.webdriver_utils import WebDriverUtils
 import time
+from pages.driver_utils_page import DriverUtilsPage
 
-class WishListPage(WebDriverUtils):
+
+class WishListPage(DriverUtilsPage):
 
     def __init__(self, driver):
         super().__init__(driver)

@@ -1,8 +1,9 @@
 from re import X
-from pages.webdriver_utils import WebDriverUtils
 import time
+from pages.driver_utils_page import DriverUtilsPage
 
-class ProductDetailsPage(WebDriverUtils):
+
+class ProductDetailsPage(DriverUtilsPage):
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -38,7 +39,6 @@ class ProductDetailsPage(WebDriverUtils):
         return self.find_element_wait(xpath="//div[text()='Wishlist']/..")
 
     def get_product_name(self, input):
-        #self.wait_for_element_with_content_load("class_name", "product-name")
         if input in self.product_name_loc().text.strip():
             return True
         return False

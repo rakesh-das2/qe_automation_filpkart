@@ -1,8 +1,7 @@
-from pages.webdriver_utils import WebDriverUtils
 import time
+from pages.driver_utils_page import DriverUtilsPage
 
-
-class AddToCartPage(WebDriverUtils):
+class AddToCartPage(DriverUtilsPage):
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -27,6 +26,7 @@ class AddToCartPage(WebDriverUtils):
 
     def click_on_remove_btn_for_product(self, input):
         self.scroll_down()
+        time.sleep(2)
         if self.wait_for_element(self.remove_product_from_cart_loc(input)):
             self.remove_product_from_cart_loc(input).click()
             if self.wait_for_element(self.remove_btn_on_popup_loc()):

@@ -1,0 +1,419 @@
+2022-11-09 12:11:59,010: INFO: Verify item in Sub Category and Category Page
+2022-11-09 12:11:59,011: INFO: Launch the app
+2022-11-09 12:11:59,016: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 12:13:09,041: INFO: https://www.flipkart.com/ opened
+2022-11-09 12:13:09,041: INFO: Close login popup if display
+2022-11-09 12:13:09,042: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 12:13:09,054: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 12:13:09,055: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 12:13:09,067: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 12:13:09,068: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="48bc275cba153e6065352f0cee82aeb5", element="77465db2-a78f-4a88-a73b-438ce3d6c9f7")>
+2022-11-09 12:13:09,169: INFO: <selenium.webdriver.remote.webelement.WebElement (session="48bc275cba153e6065352f0cee82aeb5", element="77465db2-a78f-4a88-a73b-438ce3d6c9f7")> clicked
+2022-11-09 12:13:09,638: INFO: Driver quitting
+2022-11-09 12:13:12,021: INFO: Driver quitted
+2022-11-09 12:16:18,507: INFO: Verify item in Sub Category and Category Page
+2022-11-09 12:16:18,508: INFO: Launch the app
+2022-11-09 12:16:18,512: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 12:16:54,433: INFO: https://www.flipkart.com/ opened
+2022-11-09 12:16:54,434: INFO: Close login popup if display
+2022-11-09 12:16:54,434: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 12:16:54,448: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 12:16:54,448: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 12:16:54,459: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 12:16:54,460: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="d94777217e31cbf2d7f37d2312729498", element="31324c54-a430-4fa9-a44f-52b8332f7255")>
+2022-11-09 12:16:54,545: INFO: <selenium.webdriver.remote.webelement.WebElement (session="d94777217e31cbf2d7f37d2312729498", element="31324c54-a430-4fa9-a44f-52b8332f7255")> clicked
+2022-11-09 12:16:54,858: INFO: Driver quitting
+2022-11-09 12:16:57,260: INFO: Driver quitted
+2022-11-09 12:19:00,955: INFO: Verify item in Sub Category and Category Page
+2022-11-09 12:19:00,956: INFO: Launch the app
+2022-11-09 12:19:00,960: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 12:19:36,733: INFO: https://www.flipkart.com/ opened
+2022-11-09 12:19:36,733: INFO: Close login popup if display
+2022-11-09 12:19:36,734: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 12:19:36,750: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 12:19:36,750: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 12:19:36,759: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 12:19:36,759: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="fcb19889-f93b-45c7-8df9-47fe74449ff7")>
+2022-11-09 12:19:36,844: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="fcb19889-f93b-45c7-8df9-47fe74449ff7")> clicked
+2022-11-09 12:20:08,864: INFO: Searching for element by xpath //div[@class='xtXmba']
+2022-11-09 12:20:08,885: INFO: Element by xpath //div[@class='xtXmba'] found
+2022-11-09 12:20:10,272: INFO: Verify Audio sub category should display
+2022-11-09 12:20:10,272: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 12:20:10,298: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 12:20:10,819: INFO: Hover on Audio sub category
+2022-11-09 12:20:10,819: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 12:20:10,827: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 12:20:11,624: INFO: Verify All master item should display
+2022-11-09 12:20:11,624: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a
+2022-11-09 12:20:11,637: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a found
+2022-11-09 12:20:11,652: INFO: Click on All master item
+2022-11-09 12:20:11,653: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a
+2022-11-09 12:20:11,661: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a found
+2022-11-09 12:20:14,702: INFO: Verify TVs & Appliances main category should display
+2022-11-09 12:20:14,702: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 12:20:14,714: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 12:20:14,726: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 12:20:14,742: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 12:20:14,770: INFO: Hover on TVs & Appliances category
+2022-11-09 12:20:14,771: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 12:20:14,784: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 12:20:14,799: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 12:20:14,806: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 12:20:15,101: INFO: Verify Inverter AC sub category should display
+2022-11-09 12:20:15,101: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 12:20:15,129: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 12:20:15,140: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 12:20:15,156: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 12:20:15,383: INFO: Click on Inverter AC sub category
+2022-11-09 12:20:15,383: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 12:20:15,390: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 12:20:15,399: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 12:20:15,406: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 12:20:15,525: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="742f71c4-c5e7-4e8e-aeac-5460b4d33add")>
+2022-11-09 12:20:15,580: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="742f71c4-c5e7-4e8e-aeac-5460b4d33add")> clicked
+2022-11-09 12:20:17,591: INFO: Verify Air Conditioners h1 title
+2022-11-09 12:20:17,591: INFO: Searching for element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1
+2022-11-09 12:20:17,601: INFO: Element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1 found
+2022-11-09 12:20:17,613: INFO: Searching for element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1
+2022-11-09 12:20:17,619: INFO: Element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1 found
+2022-11-09 12:20:17,632: INFO: Sort the product by Price -- Low to High
+2022-11-09 12:20:17,632: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:17,643: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:17,656: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:17,668: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:17,668: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:17,677: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:17,686: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:17,698: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:17,726: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")>
+2022-11-09 12:20:17,794: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")> clicked
+2022-11-09 12:20:18,836: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:18,843: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:18,853: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:18,864: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:18,881: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")>
+2022-11-09 12:20:18,904: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")> clicked
+2022-11-09 12:20:19,949: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:19,955: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:19,964: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:19,972: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:19,986: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")>
+2022-11-09 12:20:20,013: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")> clicked
+2022-11-09 12:20:21,046: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:21,054: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:21,068: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:21,082: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:21,098: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")>
+2022-11-09 12:20:21,125: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")> clicked
+2022-11-09 12:20:22,149: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:22,157: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:22,165: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 12:20:22,177: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 12:20:22,192: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")>
+2022-11-09 12:20:22,212: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c8f3574345496e4d061de5a5d14cbb36", element="41cc4c2e-c7c5-439a-bfd8-e4c461e927a0")> clicked
+2022-11-09 12:20:23,234: INFO: Verify product price display view should be Price -- Low to High
+2022-11-09 12:20:23,234: INFO: Searching for element by xpath //div[@class='_30jeq3 _1_WHN1']
+2022-11-09 12:20:23,246: INFO: Element by xpath //div[@class='_30jeq3 _1_WHN1'] found
+2022-11-09 12:20:23,257: INFO: Searching for element by xpath //div[@class='_30jeq3 _1_WHN1']
+2022-11-09 12:20:23,268: INFO: Element by xpath //div[@class='_30jeq3 _1_WHN1'] found
+2022-11-09 12:20:23,575: INFO: Driver quitting
+2022-11-09 12:20:25,954: INFO: Driver quitted
+2022-11-09 12:59:59,538: INFO: Verify item in Sub Category and Category Page
+2022-11-09 12:59:59,538: INFO: Launch the app
+2022-11-09 12:59:59,538: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:00:49,112: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:00:49,113: INFO: Close login popup if display
+2022-11-09 13:00:49,113: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:00:49,127: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:00:49,128: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:00:49,136: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:00:49,137: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="5e9172241190f4b7897437d5e4036299", element="b2d92d7d-521e-4deb-9d69-8db8f4b08cd4")>
+2022-11-09 13:00:49,198: INFO: <selenium.webdriver.remote.webelement.WebElement (session="5e9172241190f4b7897437d5e4036299", element="b2d92d7d-521e-4deb-9d69-8db8f4b08cd4")> clicked
+2022-11-09 13:02:00,029: INFO: Driver quitting
+2022-11-09 13:02:02,406: INFO: Driver quitted
+2022-11-09 13:02:08,025: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:02:08,029: INFO: Launch the app
+2022-11-09 13:02:08,037: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:03:11,304: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:03:11,305: INFO: Close login popup if display
+2022-11-09 13:03:11,305: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:03:11,319: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:03:11,319: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:03:11,328: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:03:11,328: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="ed4c7f6a7749b41efa627843f8460072", element="dfd0e769-01c4-41b2-9252-7120b6349be0")>
+2022-11-09 13:03:11,382: INFO: <selenium.webdriver.remote.webelement.WebElement (session="ed4c7f6a7749b41efa627843f8460072", element="dfd0e769-01c4-41b2-9252-7120b6349be0")> clicked
+2022-11-09 13:04:07,550: INFO: Searching for element by xpath //div[@class='xtXmba']
+2022-11-09 13:04:07,562: INFO: Element by xpath //div[@class='xtXmba'] found
+2022-11-09 13:04:07,563: INFO: Verify Audio sub category should display
+2022-11-09 13:04:07,563: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 13:04:07,579: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 13:04:07,779: INFO: Driver quitting
+2022-11-09 13:04:10,145: INFO: Driver quitted
+2022-11-09 13:04:15,820: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:04:15,821: INFO: Launch the app
+2022-11-09 13:04:15,825: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:05:19,877: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:05:19,878: INFO: Close login popup if display
+2022-11-09 13:05:19,878: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:05:19,892: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:05:19,893: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:05:19,901: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:05:19,902: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="d1653f319b176c74b15ebda83190abf0", element="b151b0b9-d658-4cdc-b5dd-07fc11080643")>
+2022-11-09 13:05:19,963: INFO: <selenium.webdriver.remote.webelement.WebElement (session="d1653f319b176c74b15ebda83190abf0", element="b151b0b9-d658-4cdc-b5dd-07fc11080643")> clicked
+2022-11-09 13:06:22,796: INFO: Searching for element by xpath //div[@class='xtXmba']
+2022-11-09 13:06:22,809: INFO: Element by xpath //div[@class='xtXmba'] found
+2022-11-09 13:06:43,179: INFO: Driver quitting
+2022-11-09 13:06:45,530: INFO: Driver quitted
+2022-11-09 13:06:51,254: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:06:51,254: INFO: Launch the app
+2022-11-09 13:06:51,254: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:07:29,276: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:07:29,276: INFO: Close login popup if display
+2022-11-09 13:07:29,276: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:07:29,289: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:07:29,290: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:07:29,300: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:07:29,300: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="61cacbe39a945557767ff583fd40ecbc", element="a54a93a9-76bb-4533-8d56-13d4a6c84bed")>
+2022-11-09 13:07:29,354: INFO: <selenium.webdriver.remote.webelement.WebElement (session="61cacbe39a945557767ff583fd40ecbc", element="a54a93a9-76bb-4533-8d56-13d4a6c84bed")> clicked
+2022-11-09 13:08:31,439: INFO: Searching for element by xpath //div[@class='xtXmba']
+2022-11-09 13:08:31,452: INFO: Element by xpath //div[@class='xtXmba'] found
+2022-11-09 13:08:52,328: INFO: Driver quitting
+2022-11-09 13:08:54,754: INFO: Driver quitted
+2022-11-09 13:09:00,062: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:09:00,063: INFO: Launch the app
+2022-11-09 13:09:00,067: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:10:04,097: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:10:04,098: INFO: Close login popup if display
+2022-11-09 13:10:04,099: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:10:04,114: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:10:04,115: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:10:04,126: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:10:04,126: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="9ed77a39-058a-46f4-a598-c04aa667d07f")>
+2022-11-09 13:10:04,212: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="9ed77a39-058a-46f4-a598-c04aa667d07f")> clicked
+2022-11-09 13:10:14,252: INFO: Searching for element by xpath //div[@class='xtXmba']
+2022-11-09 13:10:14,266: INFO: Element by xpath //div[@class='xtXmba'] found
+2022-11-09 13:10:15,634: INFO: Verify Audio sub category should display
+2022-11-09 13:10:15,634: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 13:10:15,656: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 13:10:16,194: INFO: Hover on Audio sub category
+2022-11-09 13:10:16,194: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 13:10:16,206: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 13:10:17,003: INFO: Verify All master item should display
+2022-11-09 13:10:17,003: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a
+2022-11-09 13:10:17,017: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a found
+2022-11-09 13:10:17,034: INFO: Click on All master item
+2022-11-09 13:10:17,036: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a
+2022-11-09 13:10:17,048: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a found
+2022-11-09 13:10:20,089: INFO: Verify TVs & Appliances main category should display
+2022-11-09 13:10:20,089: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:10:20,105: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:10:20,118: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:10:20,130: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:10:20,155: INFO: Hover on TVs & Appliances category
+2022-11-09 13:10:20,156: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:10:20,165: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:10:20,178: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:10:20,185: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:10:20,495: INFO: Verify Inverter AC sub category should display
+2022-11-09 13:10:20,495: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:10:20,511: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:10:20,522: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:10:20,536: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:10:20,777: INFO: Click on Inverter AC sub category
+2022-11-09 13:10:20,777: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:10:20,793: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:10:20,800: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:10:20,808: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:10:20,902: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="63ac2c46-26e0-4eaa-9689-776e4493aadc")>
+2022-11-09 13:10:20,958: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="63ac2c46-26e0-4eaa-9689-776e4493aadc")> clicked
+2022-11-09 13:10:22,969: INFO: Verify Air Conditioners h1 title
+2022-11-09 13:10:22,969: INFO: Searching for element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1
+2022-11-09 13:10:22,987: INFO: Element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1 found
+2022-11-09 13:10:22,995: INFO: Searching for element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1
+2022-11-09 13:10:23,004: INFO: Element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1 found
+2022-11-09 13:10:23,014: INFO: Sort the product by Price -- Low to High
+2022-11-09 13:10:23,014: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:23,026: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:23,038: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:23,048: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:23,049: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:23,059: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:23,067: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:23,076: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:23,100: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")>
+2022-11-09 13:10:23,158: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")> clicked
+2022-11-09 13:10:24,203: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:24,214: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:24,224: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:24,230: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:24,244: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")>
+2022-11-09 13:10:24,264: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")> clicked
+2022-11-09 13:10:25,289: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:25,298: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:25,306: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:25,310: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:25,316: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")>
+2022-11-09 13:10:25,349: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")> clicked
+2022-11-09 13:10:26,367: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:26,390: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:26,397: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:26,406: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:26,421: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")>
+2022-11-09 13:10:26,444: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")> clicked
+2022-11-09 13:10:27,478: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:27,486: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:27,495: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:10:27,504: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:10:27,516: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")>
+2022-11-09 13:10:27,536: INFO: <selenium.webdriver.remote.webelement.WebElement (session="c7b7d734d3ac18a1c5e79b8b2c063cff", element="b4f8401d-34c2-4104-98c9-df1af2be36fa")> clicked
+2022-11-09 13:10:28,565: INFO: Verify product price display view should be Price -- Low to High
+2022-11-09 13:10:28,565: INFO: Searching for element by xpath //div[@class='_30jeq3 _1_WHN1']
+2022-11-09 13:10:28,577: INFO: Element by xpath //div[@class='_30jeq3 _1_WHN1'] found
+2022-11-09 13:10:28,586: INFO: Searching for element by xpath //div[@class='_30jeq3 _1_WHN1']
+2022-11-09 13:10:28,596: INFO: Element by xpath //div[@class='_30jeq3 _1_WHN1'] found
+2022-11-09 13:10:28,905: INFO: Driver quitting
+2022-11-09 13:10:31,269: INFO: Driver quitted
+2022-11-09 13:10:38,346: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:10:38,346: INFO: Launch the app
+2022-11-09 13:10:38,346: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:11:42,799: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:11:42,799: INFO: Close login popup if display
+2022-11-09 13:11:42,800: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:11:42,814: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:11:42,815: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:11:42,822: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:11:42,822: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="c653a54b-b0eb-49f8-a8c6-e2efdfaa8adb")>
+2022-11-09 13:11:42,891: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="c653a54b-b0eb-49f8-a8c6-e2efdfaa8adb")> clicked
+2022-11-09 13:12:05,388: INFO: Searching for element by xpath //div[@class='xtXmba']
+2022-11-09 13:12:05,399: INFO: Element by xpath //div[@class='xtXmba'] found
+2022-11-09 13:12:06,745: INFO: Verify Audio sub category should display
+2022-11-09 13:12:06,745: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 13:12:06,761: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 13:12:07,283: INFO: Hover on Audio sub category
+2022-11-09 13:12:07,284: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a
+2022-11-09 13:12:07,294: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[1]/a found
+2022-11-09 13:12:08,086: INFO: Verify All master item should display
+2022-11-09 13:12:08,086: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a
+2022-11-09 13:12:08,097: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a found
+2022-11-09 13:12:08,113: INFO: Click on All master item
+2022-11-09 13:12:08,114: INFO: Searching for element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a
+2022-11-09 13:12:08,124: INFO: Element by xpath //div[@class='xtXmba']/../following-sibling::div//div[2]/a found
+2022-11-09 13:12:11,160: INFO: Verify TVs & Appliances main category should display
+2022-11-09 13:12:11,160: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:12:11,182: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:12:11,197: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:12:11,209: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:12:11,231: INFO: Hover on TVs & Appliances category
+2022-11-09 13:12:11,231: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:12:11,240: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:12:11,250: INFO: Searching for element by xpath //div[@id='container']/div/div[2]//div[1]/span
+2022-11-09 13:12:11,260: INFO: Element by xpath //div[@id='container']/div/div[2]//div[1]/span found
+2022-11-09 13:12:11,552: INFO: Verify Inverter AC sub category should display
+2022-11-09 13:12:11,553: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:12:11,567: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:12:11,578: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:12:11,592: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:12:11,830: INFO: Click on Inverter AC sub category
+2022-11-09 13:12:11,830: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:12:11,841: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:12:11,849: INFO: Searching for element by xpath //div[@class='_1fwVde']/a
+2022-11-09 13:12:11,859: INFO: Element by xpath //div[@class='_1fwVde']/a found
+2022-11-09 13:12:11,962: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="74ede916-c02b-49bb-8e5e-d19e508b310c")>
+2022-11-09 13:12:12,017: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="74ede916-c02b-49bb-8e5e-d19e508b310c")> clicked
+2022-11-09 13:12:14,034: INFO: Verify Air Conditioners h1 title
+2022-11-09 13:12:14,034: INFO: Searching for element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1
+2022-11-09 13:12:14,044: INFO: Element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1 found
+2022-11-09 13:12:14,053: INFO: Searching for element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1
+2022-11-09 13:12:14,059: INFO: Element by xpath //span[contains(text(), 'Showing')]/preceding-sibling::h1 found
+2022-11-09 13:12:14,071: INFO: Sort the product by Price -- Low to High
+2022-11-09 13:12:14,071: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:14,080: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:14,089: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:14,099: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:14,100: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:14,107: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:14,114: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:14,121: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:14,144: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")>
+2022-11-09 13:12:14,221: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")> clicked
+2022-11-09 13:12:15,254: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:15,261: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:15,269: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:15,274: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:15,291: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")>
+2022-11-09 13:12:15,315: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")> clicked
+2022-11-09 13:12:16,341: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:16,357: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:16,370: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:16,379: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:16,394: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")>
+2022-11-09 13:12:16,420: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")> clicked
+2022-11-09 13:12:17,441: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:17,455: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:17,465: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:17,471: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:17,484: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")>
+2022-11-09 13:12:17,503: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")> clicked
+2022-11-09 13:12:18,528: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:18,550: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:18,557: INFO: Searching for element by xpath //h1/following-sibling::div/div
+2022-11-09 13:12:18,566: INFO: Element by xpath //h1/following-sibling::div/div found
+2022-11-09 13:12:18,575: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")>
+2022-11-09 13:12:18,594: INFO: <selenium.webdriver.remote.webelement.WebElement (session="bcc068369923243f6400736247ddb307", element="9e9e6222-e412-4c7a-91e0-08a20af568d2")> clicked
+2022-11-09 13:12:19,614: INFO: Verify product price display view should be Price -- Low to High
+2022-11-09 13:12:19,614: INFO: Searching for element by xpath //div[@class='_30jeq3 _1_WHN1']
+2022-11-09 13:12:19,629: INFO: Element by xpath //div[@class='_30jeq3 _1_WHN1'] found
+2022-11-09 13:12:19,636: INFO: Searching for element by xpath //div[@class='_30jeq3 _1_WHN1']
+2022-11-09 13:12:19,662: INFO: Element by xpath //div[@class='_30jeq3 _1_WHN1'] found
+2022-11-09 13:12:19,963: INFO: Driver quitting
+2022-11-09 13:12:22,337: INFO: Driver quitted
+2022-11-09 13:12:47,485: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:12:47,485: INFO: Launch the app
+2022-11-09 13:12:47,485: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:13:51,619: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:13:51,620: INFO: Close login popup if display
+2022-11-09 13:13:51,620: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:13:51,637: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:13:51,638: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:13:51,647: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:13:51,647: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="b1f67be149f7fd6a200d566408983e69", element="e339caa2-087a-4782-90a3-9a869f3c27fa")>
+2022-11-09 13:13:51,733: INFO: <selenium.webdriver.remote.webelement.WebElement (session="b1f67be149f7fd6a200d566408983e69", element="e339caa2-087a-4782-90a3-9a869f3c27fa")> clicked
+2022-11-09 13:17:57,074: INFO: Driver quitting
+2022-11-09 13:17:59,463: INFO: Driver quitted
+2022-11-09 13:18:04,902: INFO: Verify item in Sub Category and Category Page
+2022-11-09 13:18:04,902: INFO: Launch the app
+2022-11-09 13:18:04,902: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 13:19:07,311: INFO: https://www.flipkart.com/ opened
+2022-11-09 13:19:07,312: INFO: Close login popup if display
+2022-11-09 13:19:07,312: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:19:07,326: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:19:07,327: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 13:19:07,336: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 13:19:07,336: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="35fca2fc9615727f68368cbd62fa0cac", element="b0d7cef7-a934-495c-b316-c778a6452c16")>
+2022-11-09 13:19:07,405: INFO: <selenium.webdriver.remote.webelement.WebElement (session="35fca2fc9615727f68368cbd62fa0cac", element="b0d7cef7-a934-495c-b316-c778a6452c16")> clicked
+2022-11-09 13:25:43,555: INFO: Driver quitting
+2022-11-09 13:25:45,920: INFO: Driver quitted
+2022-11-09 15:07:02,656: INFO: Verify item in Sub Category and Category Page
+2022-11-09 15:07:02,656: INFO: Launch the app
+2022-11-09 15:07:02,671: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 15:08:06,528: INFO: https://www.flipkart.com/ opened
+2022-11-09 15:08:06,530: INFO: Close login popup if display
+2022-11-09 15:08:06,530: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 15:08:06,548: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 15:08:06,549: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 15:08:06,560: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 15:08:06,561: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="ed4ebeeb46df51982dd6266fdab7a671", element="1f22b596-4974-4a7e-b5bd-8eed8660f257")>
+2022-11-09 15:08:06,650: INFO: <selenium.webdriver.remote.webelement.WebElement (session="ed4ebeeb46df51982dd6266fdab7a671", element="1f22b596-4974-4a7e-b5bd-8eed8660f257")> clicked
+2022-11-09 15:08:56,348: INFO: Driver quitting
+2022-11-09 15:08:58,730: INFO: Driver quitted
+2022-11-09 16:06:44,779: INFO: Verify item in Sub Category and Category Page
+2022-11-09 16:06:44,780: INFO: Launch the app
+2022-11-09 16:06:44,780: INFO: Navigating to https://www.flipkart.com/
+2022-11-09 16:07:21,475: INFO: https://www.flipkart.com/ opened
+2022-11-09 16:07:21,476: INFO: Close login popup if display
+2022-11-09 16:07:21,477: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 16:07:21,498: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 16:07:21,499: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-09 16:07:21,508: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-09 16:07:21,508: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="a9190cf4c4473ec3fd564b16ba9d63e8", element="8a3b4da1-fded-43ae-8d2a-fd9061a0919c")>
+2022-11-09 16:07:21,574: INFO: <selenium.webdriver.remote.webelement.WebElement (session="a9190cf4c4473ec3fd564b16ba9d63e8", element="8a3b4da1-fded-43ae-8d2a-fd9061a0919c")> clicked

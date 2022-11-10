@@ -1,14 +1,13 @@
-from contextlib import contextmanager
 from selenium.webdriver.common.action_chains import ActionChains
-
 from pages.base_page import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from utils.common_utils import CommonUtils
 import time
+from pages.base_page import BasePage
 
-class WebDriverUtils(BasePage):
+class DriverUtilsPage(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)

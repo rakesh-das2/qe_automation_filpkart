@@ -1,9 +1,10 @@
 from re import X
-from pages.webdriver_utils import WebDriverUtils
 import time
+from pages.driver_utils_page import DriverUtilsPage
 
 
-class SearchResultPage(WebDriverUtils):
+
+class SearchResultPage(DriverUtilsPage):
 
     def __init__(self, driver):
         super().__init__(driver)
