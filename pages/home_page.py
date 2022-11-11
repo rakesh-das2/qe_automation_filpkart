@@ -27,7 +27,7 @@ class HomePage(DriverUtilsPage):
         return self.find_element(css="button[type='submit']")
 
     def login_popup_close_loc(self):
-        return self.find_element_wait(xpath="//button[text()='✕']")
+        return self.find_element_wait(xpath="//div[@class='_2QfC02']/button")
 
     @DecoratorUtils.get_webelement(By.XPATH, TOP_STORIES_XPATH)
     def top_stories_loc(self): pass
