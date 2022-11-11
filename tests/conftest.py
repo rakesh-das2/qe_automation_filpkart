@@ -10,7 +10,7 @@ web_driver = None
 
 
 @pytest.fixture()
-def setup(request, browser):
+def setup(request, browser, delete_file):
     global web_driver
     data=CommonUtils.read_json_file("./capabilities.json")
     web_driver=None

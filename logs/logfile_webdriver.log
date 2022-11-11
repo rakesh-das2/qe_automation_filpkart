@@ -1,0 +1,146 @@
+2022-11-10 17:02:52,100 :INFO : selenium :Navigating to https://www.flipkart.com/
+2022-11-10 17:03:07,280 :INFO : selenium :('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2022-11-10 17:10:29,420: INFO: Verify flipkart homepage title
+2022-11-10 17:10:29,420: INFO: Launch the app
+2022-11-10 17:10:29,444: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:11:09,970: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:11:09,971: INFO: Close login popup if display
+2022-11-10 17:11:09,971: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:11:09,988: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:11:09,989: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:11:10,003: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:11:10,004: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="98a91091ca0f59657c7d1b2f330e4472", element="aedb18fe-d984-45c4-a7fd-91230ad61b4c")>
+2022-11-10 17:11:10,112: INFO: <selenium.webdriver.remote.webelement.WebElement (session="98a91091ca0f59657c7d1b2f330e4472", element="aedb18fe-d984-45c4-a7fd-91230ad61b4c")> clicked
+2022-11-10 17:11:10,126: INFO: Driver quitting
+2022-11-10 17:11:12,316: INFO: Driver quitted
+2022-11-10 17:12:31,502: INFO: Verify flipkart homepage title
+2022-11-10 17:12:31,502: INFO: Launch the app
+2022-11-10 17:12:31,522: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:13:04,831: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:13:04,831: INFO: Close login popup if display
+2022-11-10 17:13:04,831: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:13:04,855: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:13:04,856: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:13:04,870: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:13:04,871: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="872270eb3fcda2a5efdd9a2a6b5e6ff2", element="fdfbde12-5b8d-4596-a4a1-8bae12a38836")>
+2022-11-10 17:13:04,953: INFO: <selenium.webdriver.remote.webelement.WebElement (session="872270eb3fcda2a5efdd9a2a6b5e6ff2", element="fdfbde12-5b8d-4596-a4a1-8bae12a38836")> clicked
+2022-11-10 17:13:04,975: INFO: Driver quitting
+2022-11-10 17:13:07,155: INFO: Driver quitted
+2022-11-10 17:13:55,255: INFO: Verify flipkart homepage title
+2022-11-10 17:13:55,256: INFO: Launch the app
+2022-11-10 17:13:55,279: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:14:28,467: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:14:28,468: INFO: Close login popup if display
+2022-11-10 17:14:28,468: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:14:28,488: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:14:28,489: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:14:28,501: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:14:28,502: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="5e049ed7c8237952de22218ab6bd1550", element="22faa2a7-bad2-4dfa-b7c5-73f7a1f37dbd")>
+2022-11-10 17:14:28,588: INFO: <selenium.webdriver.remote.webelement.WebElement (session="5e049ed7c8237952de22218ab6bd1550", element="22faa2a7-bad2-4dfa-b7c5-73f7a1f37dbd")> clicked
+2022-11-10 17:14:28,603: INFO: Driver quitting
+2022-11-10 17:14:30,772: INFO: Driver quitted
+2022-11-10 17:14:57,874: INFO: Verify flipkart homepage title
+2022-11-10 17:14:57,875: INFO: Launch the app
+2022-11-10 17:14:57,886: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:16:00,413: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:16:00,414: INFO: Close login popup if display
+2022-11-10 17:16:00,414: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:16:00,419: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:16:00,419: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:16:00,436: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:16:00,437: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="e917e9eaad2b1d55e51aa83d8e4cb9b3", element="f599b976-f355-466c-a880-268f03bb7602")>
+2022-11-10 17:16:00,518: INFO: <selenium.webdriver.remote.webelement.WebElement (session="e917e9eaad2b1d55e51aa83d8e4cb9b3", element="f599b976-f355-466c-a880-268f03bb7602")> clicked
+2022-11-10 17:16:00,539: INFO: Driver quitting
+2022-11-10 17:16:02,701: INFO: Driver quitted
+2022-11-10 17:16:08,174: INFO: Verify flipkart homepage title
+2022-11-10 17:16:08,174: INFO: Launch the app
+2022-11-10 17:16:08,205: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:16:51,420: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:16:51,420: INFO: Close login popup if display
+2022-11-10 17:16:51,420: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:16:51,450: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:16:51,450: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:16:51,463: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:16:51,464: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="8d042e9dc9e6e86a8db64b92813f580a", element="b2b492c8-cb12-4705-b59a-c1b38fffb417")>
+2022-11-10 17:16:51,546: INFO: <selenium.webdriver.remote.webelement.WebElement (session="8d042e9dc9e6e86a8db64b92813f580a", element="b2b492c8-cb12-4705-b59a-c1b38fffb417")> clicked
+2022-11-10 17:16:51,561: INFO: Driver quitting
+2022-11-10 17:16:53,721: INFO: Driver quitted
+2022-11-10 17:17:26,074: INFO: Verify flipkart homepage title
+2022-11-10 17:17:26,074: INFO: Launch the app
+2022-11-10 17:17:26,094: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:18:03,119: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:18:03,119: INFO: Close login popup if display
+2022-11-10 17:18:03,119: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:18:03,140: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:18:03,141: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:18:03,151: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:18:03,153: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="fe3b5c707b1461e58f189828ed382b87", element="963c0131-1f1c-4292-9d53-3d2a3baf2861")>
+2022-11-10 17:18:03,238: INFO: <selenium.webdriver.remote.webelement.WebElement (session="fe3b5c707b1461e58f189828ed382b87", element="963c0131-1f1c-4292-9d53-3d2a3baf2861")> clicked
+2022-11-10 17:18:03,258: INFO: Driver quitting
+2022-11-10 17:18:05,460: INFO: Driver quitted
+2022-11-10 17:18:13,687: DEBUG: POST http://localhost:63765/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-logging", "enable-automation"], "extensions": [], "args": ["--disable-infobars", "--disable-notifications", "--ignore-certificate-errors", "--disable-dev-shm-usage", "--dns-prefetch-disable", "--disable-gpu", "--headless"]}}}}
+2022-11-10 17:18:13,688: DEBUG: Starting new HTTP connection (1): localhost:63765
+2022-11-10 17:18:14,916: DEBUG: http://localhost:63765 "POST /session HTTP/1.1" 200 792
+2022-11-10 17:18:14,917: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"107.0.5304.89","chrome":{"chromedriverVersion":"107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942})","userDataDir":"C:\\Users\\700003~2\\AppData\\Local\\Temp\\scoped_dir23356_308866888"},"goog:chromeOptions":{"debuggerAddress":"localhost:63768"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"705310945a6b3752329343793a002744"}} | headers=HTTPHeaderDict({'Content-Length': '792', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:14,917: DEBUG: Finished Request
+2022-11-10 17:18:14,917: DEBUG: POST http://localhost:63765/session/705310945a6b3752329343793a002744/window/rect {"x": null, "y": null, "width": 1360, "height": 768}
+2022-11-10 17:18:15,032: DEBUG: http://localhost:63765 "POST /session/705310945a6b3752329343793a002744/window/rect HTTP/1.1" 200 49
+2022-11-10 17:18:15,032: DEBUG: Remote response: status=200 | data={"value":{"height":768,"width":1360,"x":0,"y":0}} | headers=HTTPHeaderDict({'Content-Length': '49', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:15,032: DEBUG: Finished Request
+2022-11-10 17:18:15,166: INFO: Verify flipkart homepage title
+2022-11-10 17:18:15,166: INFO: Launch the app
+2022-11-10 17:18:15,166: DEBUG: DELETE http://localhost:63765/session/705310945a6b3752329343793a002744/cookie {}
+2022-11-10 17:18:15,183: DEBUG: http://localhost:63765 "DELETE /session/705310945a6b3752329343793a002744/cookie HTTP/1.1" 200 14
+2022-11-10 17:18:15,183: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:15,183: DEBUG: Finished Request
+2022-11-10 17:18:15,183: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:18:15,183: DEBUG: POST http://localhost:63765/session/705310945a6b3752329343793a002744/url {"url": "https://www.flipkart.com/"}
+2022-11-10 17:18:58,124: DEBUG: http://localhost:63765 "POST /session/705310945a6b3752329343793a002744/url HTTP/1.1" 200 14
+2022-11-10 17:18:58,124: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:58,124: DEBUG: Finished Request
+2022-11-10 17:18:58,124: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:18:58,124: INFO: Close login popup if display
+2022-11-10 17:18:58,124: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:18:58,124: DEBUG: POST http://localhost:63765/session/705310945a6b3752329343793a002744/element {"using": "xpath", "value": "//button[text()='\u2715']"}
+2022-11-10 17:18:58,144: DEBUG: http://localhost:63765 "POST /session/705310945a6b3752329343793a002744/element HTTP/1.1" 200 88
+2022-11-10 17:18:58,144: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"4ac62319-5b03-4cc8-8235-0ca69d4eaecf"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:58,144: DEBUG: Finished Request
+2022-11-10 17:18:58,145: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:18:58,145: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:18:58,146: DEBUG: POST http://localhost:63765/session/705310945a6b3752329343793a002744/element {"using": "xpath", "value": "//button[text()='\u2715']"}
+2022-11-10 17:18:58,158: DEBUG: http://localhost:63765 "POST /session/705310945a6b3752329343793a002744/element HTTP/1.1" 200 88
+2022-11-10 17:18:58,159: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"4ac62319-5b03-4cc8-8235-0ca69d4eaecf"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:58,159: DEBUG: Finished Request
+2022-11-10 17:18:58,159: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:18:58,160: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="705310945a6b3752329343793a002744", element="4ac62319-5b03-4cc8-8235-0ca69d4eaecf")>
+2022-11-10 17:18:58,161: DEBUG: POST http://localhost:63765/session/705310945a6b3752329343793a002744/element/4ac62319-5b03-4cc8-8235-0ca69d4eaecf/click {"id": "4ac62319-5b03-4cc8-8235-0ca69d4eaecf"}
+2022-11-10 17:18:58,245: DEBUG: http://localhost:63765 "POST /session/705310945a6b3752329343793a002744/element/4ac62319-5b03-4cc8-8235-0ca69d4eaecf/click HTTP/1.1" 200 14
+2022-11-10 17:18:58,245: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:58,246: DEBUG: Finished Request
+2022-11-10 17:18:58,246: INFO: <selenium.webdriver.remote.webelement.WebElement (session="705310945a6b3752329343793a002744", element="4ac62319-5b03-4cc8-8235-0ca69d4eaecf")> clicked
+2022-11-10 17:18:58,252: DEBUG: GET http://localhost:63765/session/705310945a6b3752329343793a002744/title {}
+2022-11-10 17:18:58,259: DEBUG: http://localhost:63765 "GET /session/705310945a6b3752329343793a002744/title HTTP/1.1" 200 116
+2022-11-10 17:18:58,259: DEBUG: Remote response: status=200 | data={"value":"Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!"} | headers=HTTPHeaderDict({'Content-Length': '116', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:58,259: DEBUG: Finished Request
+2022-11-10 17:18:58,260: INFO: Driver quitting
+2022-11-10 17:18:58,261: DEBUG: DELETE http://localhost:63765/session/705310945a6b3752329343793a002744 {}
+2022-11-10 17:18:58,317: DEBUG: http://localhost:63765 "DELETE /session/705310945a6b3752329343793a002744 HTTP/1.1" 200 14
+2022-11-10 17:18:58,317: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2022-11-10 17:18:58,318: DEBUG: Finished Request
+2022-11-10 17:19:00,475: INFO: Driver quitted
+2022-11-10 17:20:17,700: INFO: Verify flipkart homepage title
+2022-11-10 17:20:17,700: INFO: Launch the app
+2022-11-10 17:20:17,716: INFO: Navigating to https://www.flipkart.com/
+2022-11-10 17:20:56,609: INFO: https://www.flipkart.com/ opened
+2022-11-10 17:20:56,609: INFO: Close login popup if display
+2022-11-10 17:20:56,609: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:20:56,615: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:20:56,615: INFO: Searching for element by xpath //button[text()='\u2715']
+2022-11-10 17:20:56,636: INFO: Element by xpath //button[text()='\u2715'] found
+2022-11-10 17:20:56,637: INFO: Clicking on <selenium.webdriver.remote.webelement.WebElement (session="aa239f651f6efa634b9f97b8b02c836c", element="b2befca9-dd8a-4947-ba25-d00ce294cf61")>
+2022-11-10 17:20:56,718: INFO: <selenium.webdriver.remote.webelement.WebElement (session="aa239f651f6efa634b9f97b8b02c836c", element="b2befca9-dd8a-4947-ba25-d00ce294cf61")> clicked
+2022-11-10 17:20:56,738: INFO: Driver quitting
+2022-11-10 17:20:58,913: INFO: Driver quitted
+2022-11-10 17:27:37,915: INFO: Verify flipkart homepage title
+2022-11-10 17:27:37,915: INFO: Launch the app
+2022-11-10 17:27:37,951: INFO: Navigating to https://www.flipkart.com/

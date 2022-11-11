@@ -62,7 +62,6 @@ class HomePage(DriverUtilsPage):
         return SearchResultPage(self.driver)
 
     def hover_on_category(self, category_name):
-        breakpoint()
         all_category_element=self.category_loc()
         category_flag=False
         for i in all_category_element:

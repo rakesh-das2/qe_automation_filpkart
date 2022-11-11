@@ -3,17 +3,34 @@ from selenium.webdriver.support.events import AbstractEventListener
 import logging
 import datetime
 import os
+import inspect
+from pathlib import Path
+
 class WebDriverEventListner(AbstractEventListener):
     path=os.path.join(os.path.abspath(os.curdir), 'logs')
     log_filename = datetime.datetime.now().strftime("%Y%m%d")
-   
+    ROOT_PATH = str(Path(__file__).parent.parent)
+
     logging.basicConfig(
-        filename=f"{log_filename}.log",
+        #filename=f"{log_filename}.log",
+        filename=ROOT_PATH+"/logs/"+'logfile_webdriver.log',
         format="%(asctime)s: %(levelname)s: %(message)s",
         level=logging.INFO
+        #fileHandler = logging.FileHandler(ROOT_PATH+"/logs/"+'logfile_webdriver.log')
+        
+
     )
+
+   
     def __init__(self):
         self.logger = logging.getLogger("selenium")
+        #loggerName = inspect.stack()[1][3]
+        #self.logger = logging.getLogger(loggerName)
+        #formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
+        #fileHandler = logging.FileHandler(self.ROOT_PATH+"/logs/"+'logfile_webdriver.log')
+        #fileHandler.setFormatter(formatter)
+        #self.logger.addHandler(fileHandler)
+        #self.logger.setLevel(logging.INFO)
 
     def before_navigate_to(self, url, driver):
         self.logger.info(f"Navigating to {url}")

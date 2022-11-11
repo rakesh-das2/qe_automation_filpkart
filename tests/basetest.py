@@ -16,5 +16,5 @@ class BaseTest:
         fileHandler = logging.FileHandler(self.ROOT_PATH+"/logs/"+'logfile.log')
         fileHandler.setFormatter(formatter)
         logger.addHandler(fileHandler)
-        logger.setLevel(logging.DEBUG)
+        logger.setLevel(logging.INFO)
         return logger
