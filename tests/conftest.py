@@ -69,7 +69,7 @@ def pytest_runtest_makereport(item):
     if report.when == 'call' or report.when == "setup":
         xfail = hasattr(report, 'wasxfail')
         if (report.skipped and xfail) or (report.failed and not xfail):
-            file_name = report.nodeid.replace("::", "_").replace("test/", "")+".png"
+            file_name = report.nodeid.replace("::", "_").replace("tests/", "")+".png"
             _capture_screenshot(file_name)
             if file_name:
                 html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
