@@ -44,8 +44,8 @@ def delete_file():
     'logs')
     report_path=os.path.join(os.path.abspath(os.curdir), 
     'html_report')
-    CommonUtils.delete_all_content_from_directory(logs_path)
-    CommonUtils.delete_all_content_from_directory(report_path)
+    #CommonUtils.delete_all_content_from_directory(logs_path)
+    #CommonUtils.delete_all_content_from_directory(report_path)
 
 
 @pytest.fixture(scope="class")
